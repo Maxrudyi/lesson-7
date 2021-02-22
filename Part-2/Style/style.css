@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    -webkit-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+
+body {
+    background: black;
+}
+
+
+header {
+    background: #2B81AC;
+    width: 1450px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+
+.container {
+    background-color: #3399CC;
+    width: 1400px;
+    height: 850px;
+    position: absolute;
+    margin: 25px 25px 25px 25px;
+}
+
+
+.weather-text h1 {
+    color: #fff;
+    font-weight: 400;
+    margin: 25px 0 0 220px;
+
+}
+
+.weather-box {
+    margin-left: 220px;
+    width: 980px;
+    height: 620px;
+    margin-top: 30px;
+    border: 3px solid #fff;
+    background: #fff;
+    
+}
+
+
+.cities {
+    text-align: center;
+    font-size: 0;
+}
+
+
+.cities li {
+    display: inline-block;
+    border: 3px solid #fff;
+    width: 25%;
+    padding: 30px;
+    font-size: 26px;
+    color: #FFFFF3;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+
+.wi {
+    font-size: 32px;
+    opacity: .7;
+    margin-top: 20px;
+
+}
+
+
+ul li h3 {
+    font-weight: 400;
+    font-size: 28px;
+    opacity: .9;
+}
+
+
+.cities li p {
+    display: inline;
+    font-size: 28px;
+    opacity: .7;
+}
+
+
+li.Lisbon, li.San-francisco {
+    width: 50%;
+}
+
+
+li.Sydney {
+    width: 100%;
+}
+
+
+.Lisbon {
+    background: #3399CC;
+    
+}
+
+
+.Paris {
+    background: #33CCCC;
+
+}
+
+
+.Belgrade {
+    background: #996699;
+}
+
+
+.Moscow {
+    background: #C24747;
+}
+
+
+.Tel-aviv {
+    background: #E2674A;
+}
+
+
+.Cair {
+    background: #FFCC66;
+}
+
+
+.New-york {
+    background: #99CC99;
+}
+
+
+.New-delhi {
+    background: #669999;
+}
+
+
+.San-francisco {
+    background: #CC6699;
+}
+
+
+.Tokyo {
+    background: #339966;
+}
+
+
+.Sydney {
+    background: #666699;
+}
+
+
+.cities:hover li {
+    opacity: 0.5;
+  }
+  
+
+.cities li:hover {
+    opacity: 1;
+  }
+
+
+footer {
+      margin-top: 25px;
+      font-size: 22px;
+      color: #fff;
+      margin-left: 220px;
+      opacity: .8;
+  }

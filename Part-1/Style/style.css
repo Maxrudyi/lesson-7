@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+  
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.head {
+    background-color: #fff;
+    width: 940px;
+    height: 418px;
+    text-align: center;
+}
+
+
+.head p {
+    color: #898f99;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin-top: 143px;
+}
+
+
+.head h1 {
+    color: #0ec8cb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin-top: 35px;
+}
+
+
+.head h4 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #777777;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 513px;
+    height: 43px;   
+    text-align: justify;
+    -moz-text-align-last: justify;
+         text-align-last: justify;
+    margin: 44px auto;
+}
+
+
+.btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: brown;
+    width: 940px;
+    margin: 0 auto 138px;
+}
+
+
+.btn .buttun {
+    text-align: center;
+    height: 420px;
+    border: 1px solid #ececec;
+    background: #f7f7f7;;
+    width: 236px;
+}
+
+
+.btn .buttun h2 {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.buttun h4 {
+    width: 174px;
+    height: 101px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    margin: auto auto;
+}
+
+
+.design svg {
+    margin-top: 55px;
+}
+
+
+.design h2 {
+    margin: 55px auto 33px auto;
+}
+
+
+.developer svg {
+    margin-top: 56px;
+}
+
+
+.developer h2 {
+    margin: 43px auto 20px auto;
+    width: 165px;
+}
+
+
+.graphics svg {
+    margin-top: 63px;
+}
+
+
+.graphics h2 {
+    margin: 64px auto 33px auto;
+}
+
+
+.illustrations svg {
+    margin-top: 62px;
+}
+
+
+.illustrations h2 {
+    margin: 62px auto 33px auto;
+
+}
+
+
+ .btn .buttun:hover {
+    background: #0ec8cb;
+    transition: all .2s;
+}
+
+
+.btn .buttun:hover path {
+    fill: #fff;
+}
+
+
+.buttun:hover h2, .buttun:hover h4{
+    color: #fff;
+}
